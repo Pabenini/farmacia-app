@@ -1,4 +1,4 @@
-import { Text, View, Image, StyleSheet, TouchableOpacity } from "react-native";
+import { Text, View, Image, StyleSheet, TouchableOpacity, Pressable } from "react-native";
 import { Link } from "expo-router";
 
 export default function Index() {
@@ -23,11 +23,18 @@ export default function Index() {
         pharmacy
       </Text>
       <Link href="/produtos" style={styles.button} asChild>
-        <TouchableOpacity>
+        <Pressable>
           <Text style={styles.buttonText}>
             Entrar
           </Text>
-        </TouchableOpacity>
+        </Pressable>
+      </Link>
+      <Link href="/firebaseCRUD" style={styles.button} asChild>
+        <Pressable>
+          <Text style={styles.buttonText}>
+            firebase
+          </Text>
+        </Pressable>
       </Link>
     </View>
   );
