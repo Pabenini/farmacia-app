@@ -3,20 +3,51 @@
         {
             "id": 1,
             "product": "Product 1",
+            "image": "remedio-1",
             "description": "Description 1",
-            "price": 10.99
+            "price": 10
         },
         {
             "id": 2,
             "product": "Product 2",
+            "image": "remedio-2",
             "description": "Description 2",
-            "price": 9.99
+            "price": 5.50
         },
         {
             "id": 3,
             "product": "Product 3",
+            "image": "remedio-3",
             "description": "Description 3",
-            "price": 12.99
+            "price": 20
+        },
+        {
+            "id": 4,
+            "product": "Product 4",
+            "image": "remedio-4",
+            "description": "Description 3",
+            "price": 7
+        },
+        {
+            "id": 5,
+            "product": "Product 5",
+            "image": "remedio-5",
+            "description": "Description 3",
+            "price": 10
+        },
+        {
+            "id": 6,
+            "product": "Product 6",
+            "image": "remedio-6",
+            "description": "Description 3",
+            "price": 30
+        },
+        {
+            "id": 7,
+            "product": "Product 7",
+            "image": "remedio-7",
+            "description": "Description 3",
+            "price": 5
         }                  
     ]
 }

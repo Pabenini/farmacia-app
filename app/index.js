@@ -18,21 +18,21 @@ export default function Index() {
         fontWeight: 'bold',
         fontSize: 40,
         fontFamily: "arial",
-        marginBottom: 100,
+        marginBottom: 160,
       }}>
         pharmacy
       </Text>
-      <Link href="/produtos" style={styles.button} asChild>
+      <Link href="/products" style={styles.button} asChild>
         <Pressable>
           <Text style={styles.buttonText}>
             Entrar
           </Text>
         </Pressable>
       </Link>
-      <Link href="/firebaseCRUD" style={styles.button} asChild>
+      <Link href="/firebaseCRUD" style={styles.button2} asChild>
         <Pressable>
           <Text style={styles.buttonText}>
-            firebase
+            Cadastro
           </Text>
         </Pressable>
       </Link>
@@ -43,6 +43,19 @@ export default function Index() {
 const styles = StyleSheet.create({
 
   button: {
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
+    margin: 20,
+    backgroundColor: '#009900',
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: 15,
+    borderRadius: 30,
+    marginBottom: 80,
+  },
+  button2: {
     position: 'absolute',
     bottom: 0,
     left: 0,

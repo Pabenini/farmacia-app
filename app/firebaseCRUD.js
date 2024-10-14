@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, TextInput, Button, ScrollView, Alert, StyleSheet } from 'react-native';
 import { collection, getDocs, addDoc, deleteDoc, doc } from 'firebase/firestore';
 import { db } from './firebaseConfig'; // Importa o Firestore configurado
+import { Link } from 'expo-router';
 
 export default function App() {
     const [users, setUsers] = useState([]);
@@ -80,7 +81,7 @@ export default function App() {
 
     return (
         <ScrollView style={styles.container}>
-            <Text style={styles.title}>Usuários do Firestore</Text>
+            <Text style={styles.title}>pharmacy</Text>
             
             {/* Formulário para adicionar um novo usuário */}
             <View style={styles.form}>
@@ -104,7 +105,13 @@ export default function App() {
                     style={styles.input}
                     keyboardType="phone-pad"
                 />
-                <Button title="Adicionar Usuário" onPress={addUser} />
+                <Link
+                    href="/products"
+                    style={styles.itemLink}
+                    onPress={addUser}  // Estilo do link para ser um botão
+                >
+                    <Text style={styles.linkText}>Cadastrar</Text>
+                </Link>
             </View>
         </ScrollView>
     );
@@ -162,5 +169,20 @@ const styles = StyleSheet.create({
     userName: {
         fontSize: 18,
         fontWeight: 'bold',
+    },
+    itemLink: {
+        backgroundColor: 'blue', // Cor de fundo do botão
+        paddingVertical: 15, // Espaçamento vertical do botão
+        paddingHorizontal: 20, // Espaçamento horizontal do botão
+        marginTop: 5, // Espaço entre o item e o botão
+        alignItems: 'center', // Centraliza o texto dentro do botão
+        justifyContent: 'center', // Alinha o texto verticalmente no botão
+        borderRadius: 15,
+        textAlign: 'center'
+    },
+    linkText: {
+        color: '#FFF',
+        fontWeight: 'bold',
+        fontSize: 16,
     },
 });
