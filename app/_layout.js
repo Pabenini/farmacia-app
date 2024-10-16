@@ -15,7 +15,7 @@ export default function RootLayout() {
         headerTitleAlign: "center",
       }}
     >
-      <Stack.Screen name="index" options={{ title: "Farmacia"}} />
+      <Stack.Screen name="index" options={{ title: "Farma-Cia"}} />
       <Stack.Screen name="products" options={{ title: "Produtos"}} />
       <Stack.Screen name="produtos" options={{ title: "Produtos2"}} />
       <Stack.Screen name="bla" options={{ title: "Inicio"}} />

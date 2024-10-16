@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 import { Text, View, Image, StyleSheet, TouchableOpacity, Pressable } from "react-native";
 import { Link } from "expo-router";
 
@@ -20,9 +21,9 @@ export default function Index() {
         fontFamily: "arial",
         marginBottom: 160,
       }}>
-        pharmacy
+        pharm-acy
       </Text>
-      <Link href="/products" style={styles.button} asChild>
+      <Link href="/aula" style={styles.button} asChild>
         <Pressable>
           <Text style={styles.buttonText}>
             Entrar

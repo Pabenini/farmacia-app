@@ -66,7 +66,6 @@ const styles = StyleSheet.create({
         color: '#fff',
         fontWeight: 'bold',
         fontSize: 16,
-        fontFamily: 'ComingSoon-Regular',
     },
     productName: {
         fontSize: 18,

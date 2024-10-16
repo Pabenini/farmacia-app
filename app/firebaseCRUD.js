@@ -106,7 +106,7 @@ export default function App() {
                     keyboardType="phone-pad"
                 />
                 <Link
-                    href="/products"
+                    href="/"
                     style={styles.itemLink}
                     onPress={addUser}  // Estilo do link para ser um botão
                 >
