@@ -23,17 +23,17 @@ export default function Index() {
       }}>
         pharm-acy
       </Text>
-      <Link href="/aula" style={styles.button} asChild>
+      <Link href="/products" style={styles.button} asChild>
         <Pressable>
           <Text style={styles.buttonText}>
             Entrar
           </Text>
         </Pressable>
       </Link>
-      <Link href="/firebaseCRUD" style={styles.button2} asChild>
+      <Link href="/bla" style={styles.button2} asChild>
         <Pressable>
           <Text style={styles.buttonText}>
-            Cadastro
+            Outros
           </Text>
         </Pressable>
       </Link>
@@ -44,6 +44,7 @@ export default function Index() {
 const styles = StyleSheet.create({
 
   button: {
+    flex: 1,
     position: 'absolute',
     bottom: 0,
     left: 0,
@@ -57,6 +58,7 @@ const styles = StyleSheet.create({
     marginBottom: 80,
   },
   button2: {
+    flex: 1,
     position: 'absolute',
     bottom: 0,
     left: 0,
@@ -67,6 +69,34 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     paddingVertical: 15,
     borderRadius: 30,
+  },
+  button3: {
+    flex: 1,
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
+    margin: 20,
+    backgroundColor: '#009900',
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: 15,
+    borderRadius: 30,
+    marginBottom: 140,
+  },
+  button4: {
+    flex: 1,
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
+    margin: 20,
+    backgroundColor: '#009900',
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: 15,
+    borderRadius: 30,
+    marginBottom: 200,
   },
   buttonText: {
     fontSize: 20,
