@@ -4,50 +4,113 @@
             "id": 1,
             "product": "Product 1",
             "image": "remedio-1",
-            "description": "Description 1",
+            "description": "O ibuprofeno é indicado para redução da febre e alívio de dores, tais como: dores decorrentes de gripes e resfriados, dor de garganta, dor de cabeça, dor de dente, dor nas costas, cólicas menstruais e dores musculares.",
             "price": 10
         },
         {
             "id": 2,
             "product": "Product 2",
             "image": "remedio-2",
-            "description": "Description 2",
+            "description": "Dipirona é o nome pelo qual ficou conhecido o metamizol, medicamento bastante popular no Brasil e usado como analgésico, para aliviar a dor, e antipirético, para baixar a febre. Porém, em alguns países europeus e também nos Estados Unidos, o uso do dipirona é proibido.",
             "price": 5.50
         },
         {
             "id": 3,
             "product": "Product 3",
             "image": "remedio-3",
-            "description": "Description 3",
+            "description": "A amoxicilina pertence ao grupo dos antibióticos penicilânicos. O medicamento é usado no tratamento de uma gama de infecções causadas por bactérias, que podem manifestar-se nos pulmões (pneumonia e bronquite), nas amígdalas (amigdalite), nos seios da face (sinusite), no trato urinário e genital, na pele e nas mucosas.",
             "price": 20
         },
         {
             "id": 4,
             "product": "Product 4",
             "image": "remedio-4",
-            "description": "Description 3",
+            "description": "Cientificamente conhecido como um Anti-Inflamatório Não Esteroidal, o paracetamol é mais comumente definido como um analgésico, que alivia as dores, e um antitérmico, por combater a febre. No Brasil, o paracetamol é um Medicamento Isento de Prescrição (MIP) e, por isso, pode ser comprado na farmácia sem receita médica.",
             "price": 7
         },
         {
             "id": 5,
             "product": "Product 5",
             "image": "remedio-5",
-            "description": "Description 3",
+            "description": "Loratadina é um medicamento anti-histamínico, ou antialérgico, indicado para tratar os sintomas associados à rinite alérgica. A loratadina também é indicada para o alívio dos sinais e sintomas da urticária e de outras alergias da pele.",
             "price": 10
         },
         {
             "id": 6,
             "product": "Product 6",
             "image": "remedio-6",
-            "description": "Description 3",
+            "description": "O que é: Merthiolate tem ação específica sobre as bactérias, dificultando a sua proliferação. Possui a propriedade de matar bactérias (bactericida). Para que serve: Merthiolate é indicado na antissepsia (desinfecção e limpeza) da pele e de pequenos ferimentos.",
             "price": 30
         },
         {
             "id": 7,
             "product": "Product 7",
             "image": "remedio-7",
-            "description": "Description 3",
+            "description": "Losartan ou Losartana é um medicamento da classe dos antagonistas dos receptores da angiotensina. Sua principal indicação é para tratamento de hipertensão arterial. É actualmente comercializado por várias empresas, tendo sido inicialmente desenvolvido pela Merck Sharp & Dohme, e comercializado sob o nome Cozaar.",
             "price": 5
-        }                  
+        },    
+        {
+            "id": 8,
+            "product": "Product 8",
+            "image": "remedio-8",
+            "description": "É usado para tratar úlceras gástricas (estômago) e duodenais (intestino) e refluxo gastresofágico (quando o suco gástrico do estômago volta para o esôfago). Muitas vezes o omeprazol é usado também na combinação com antibióticos para tratar as úlceras associadas às infecções causadas pela bactéria Helycobacter pylori.",
+            "price": 5
+        },   
+        {
+            "id": 9,
+            "product": "Product 9",
+            "image": "remedio-9",
+            "description": "Este medicamento é indicado para pacientes com excesso de gases no aparelho digestivo. O acúmulo de gases no estômago e no intestino chama-se flatulência, que causa desconforto abdominal, aumento do volume abdominal, dor ou cólicas no abdômen. A eliminação dos gases alivia estes sintomas.",
+            "price": 5
+        },   
+        {
+            "id": 10,
+            "product": "Product 10",
+            "image": "remedio-10",
+            "description": "Dexametasona é um glicocorticoide sintético usado principalmente por seus potentes efeitos anti-inflamatórios. Embora sua atividade anti-inflamatória seja acentuada, mesmo com doses baixas, seu efeito no metabolismo eletrolítico (das substâncias eletrolíticas como os sais do organismo) é leve.",
+            "price": 5
+        },   
+        {
+            "id": 11,
+            "product": "Product 11",
+            "image": "remedio-11",
+            "description": "O salmeterol é um agonista seletivo de longa duração dos receptores ß2-adrenérgicos, proporcionado proteção contra a broncoconstrição induzida pela histamina. Já a fluticasona apresenta ação anti-inflamatória, reduzindo os sintomas. 20 a 30 minutos após inalação.",
+            "price": 5
+        },   
+        {
+            "id": 12,
+            "product": "Product 12",
+            "image": "remedio-12",
+            "description": "A fluoxetina é indicada no tratamento da depressão, ansiedade crônica, bulimia nervosa, transtorno obsessivo- compulsivo (TOC) e transtorno disfórico pré-menstrual (TDPM), incluindo tensão pré-menstrual (TPM). Depressão; Obsessão: 20 mg, em dose única pela manhã.",
+            "price": 5
+        },   
+        {
+            "id": 13,
+            "product": "Product 13",
+            "image": "remedio-13",
+            "description": "A atorvastatina cálcica age reduzindo a quantidade de colesterol (gordura) total no sangue diminuindo os níveis das frações prejudiciais (LDL-C, apolipoproteína B, VLDL-C, triglicérides) e aumentando os níveis sanguíneos do colesterol benéfico (HDL-C).",
+            "price": 5
+        },   
+        {
+            "id": 14,
+            "product": "Product 14",
+            "image": "remedio-14",
+            "description": "Duloxetina é um medicamento antidepressivo da classe dos inibidores da recaptação de serotonina e noradrenalina (IRSN). Seu mecanismo de ação sobre o sistema nervoso central (SNC) colabora para o tratamento de doenças mentais, além de patologias que causam dores continuamente, como a fibromialgia.",
+            "price": 5
+        },   
+        {
+            "id": 15,
+            "product": "Product 15",
+            "image": "remedio-15",
+            "description": "A Levotiroxina é um medicamento indicado para terapia de reposição ou suplementação hormonal em pacientes com hipotireoidismo de qualquer etiologia, exceto no hipotireoidismo transitório, durante a fase de recuperação de tireoidite subaguda.",
+            "price": 5
+        },
+        {
+            "id": 16,
+            "product": "Product 16",
+            "image": "remedio-16",
+            "description": "A Metoclopramida é um fármaco classificado como antiemético e procinético. Sua principal função é tratar náuseas, vômitos e facilitar a movimentação do estômago, melhorando assim problemas de esvaziamento gástrico.",
+            "price": 5
+        }
     ]
 }

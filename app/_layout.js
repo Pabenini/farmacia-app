@@ -23,6 +23,7 @@ export default function RootLayout() {
       <Stack.Screen name="firebaseCRUD" options={{ title: "Cadastro"}} />
       <Stack.Screen name="notification" options={{ title: "Pop-up"}} />
       <Stack.Screen name="contato" options={{ title: "Contato"}} />
+      <Stack.Screen name="singlePag/[id]" options={{ title: "Informações" }} />
     </Stack>
   );
 }

@@ -9,6 +9,10 @@ export default function bla(){
             justifyContent: "center",
             alignItems: "center",
         }}>
+            <Image
+            style={{ marginBottom: 300}}
+            source={require('../assets/images/Farmacia-logo2.png')}
+            />
             <Link href="/aula" style={styles.button} asChild>
                 <Pressable>
                 <Text style={styles.buttonText}>

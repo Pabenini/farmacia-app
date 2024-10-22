@@ -171,7 +171,7 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
     },
     itemLink: {
-        backgroundColor: 'blue', // Cor de fundo do botão
+        backgroundColor: 'green', // Cor de fundo do botão
         paddingVertical: 15, // Espaçamento vertical do botão
         paddingHorizontal: 20, // Espaçamento horizontal do botão
         marginTop: 5, // Espaço entre o item e o botão

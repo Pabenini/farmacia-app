@@ -53,14 +53,14 @@ const styles = StyleSheet.create({
         shadowRadius: 2,
     },
     itemLink: {
-        backgroundColor: '#000', // Cor de fundo do botão
+        backgroundColor: 'green', // Cor de fundo do botão
         paddingVertical: 15, // Espaçamento vertical do botão
         paddingHorizontal: 20, // Espaçamento horizontal do botão
         marginTop: 10, // Espaço entre o item e o botão
         alignItems: 'center', // Centraliza o texto dentro do botão
         justifyContent: 'center', // Alinha o texto verticalmente no botão
         borderRadius: 30,
-        textAlign: 'center'
+        textAlign: 'center',
     },
     linkText: {
         color: '#fff',
@@ -72,11 +72,12 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
     },
     productDescription: {
-        fontSize: 14,
+        fontSize: 15,
         color: '#666',
     },
     productPrice: {
         fontSize: 16,
         color: '#000',
+        fontWeight: "bold",
     },
 });
