@@ -3,12 +3,44 @@ import { View, Text, TextInput, Button, ScrollView, Alert, StyleSheet } from 're
 import { collection, getDocs, addDoc, deleteDoc, doc } from 'firebase/firestore';
 import { db } from './firebaseConfig'; // Importa o Firestore configurado
 import { Link } from 'expo-router';
+import * as Notifications from 'expo-notifications';
+
+Notifications.setNotificationHandler({
+    handleNotification: async () => ({
+        shouldShowAlert: true,
+        shouldPlaySound: true,
+        shouldSetBadge: false,
+    }),
+});
 
 export default function App() {
     const [users, setUsers] = useState([]);
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
+    
+    //Permissão da notificação do app
+    const notification = async () => {
+        const { status } = await Notifications.getPermissionsAsync();
+        if (status !== 'granted') {
+            const { status: newStatus } = await Notifications.requestPermissionsAsync();
+            if (newStatus !== 'granted') {
+                alert('Permissão de notificação negada!');
+                return;
+            }
+        }
+    };
+
+    const sendNotification = async () => {
+        await Notifications.scheduleNotificationAsync({
+            content: {
+                title: name,
+                body: 'Notificação Recebida com Sucesso!!!',
+            },
+            //trigger: { seconds: 1},
+            trigger: null
+        });
+    };
 
     // Função para buscar dados da coleção "users" no Firestore
     const fetchUsers = async () => {
@@ -37,11 +69,13 @@ export default function App() {
             // Adiciona o novo usuário à coleção "users"
             await addDoc(collection(db, 'users'), newUser);
             // Limpa o formulário
+            fetchUsers();
+            sendNotification();
             setName('');
             setEmail('');
             setPhone('');
             // Atualiza a lista de usuários
-            fetchUsers();
+            // fetchUsers();
         } catch (error) {
             console.error("Erro ao adicionar usuário: ", error);
         }
