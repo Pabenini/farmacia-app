@@ -22,7 +22,8 @@
       },
       "permissions": [
         "READ_CONTACTS"
-      ]
+      ],
+      "package": "com.pabenini.ok_projeto"
     },
     "web": {
       "bundler": "metro",
@@ -34,6 +35,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8219df7b-5385-4137-be14-a9fa28accebc"
+      }
     }
   }
 }
